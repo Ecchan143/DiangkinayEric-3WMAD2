@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4169e1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border-style: solid;
+}
+
+.button {
+    display: inline-block;
+    background-color: #4169e1; 
+    color: #ffffff; 
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skill span {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+progress {
+    width: 100%;
+    max-width: 200px;
+}
+
+  .skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .skill span {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .progress-container {
+    flex: 3;
+  }
+  
+  .progress-bar {
+    width: 100%;
+  }
+  
+  @media (max-width: 600px) {
+    .skill {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .progress-container {
+      width: 100%;
+    }
+  }
+  
+footer {
+    background-color: #4169e1; 
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}

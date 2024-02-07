@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="lab exercise.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="personal-info">
+            <h1>Welcome to My Blog</h1>
+                <img src="picOne.jpg" alt="Your Image" class="profile-image">
+                <p>Hi! I am Eric Diangkinay, a 3rd-year college student majoring in Web and Mobile Application Development, pursuing a Bachelor of Science in Information Technology.</p>           
+                <p><strong>Education:</strong> Laguna State Polytechnic University</p>
+                <p><strong>Email:</strong> 0321-3032@lspu.edu.ph</p>
+                <p><strong>Phone:</strong> +63 912 345 6789</p>
+                <p><strong>Address:</strong> San Pablo City, Laguna</p>
+            </address>
+            <a href="page 2.html" class="button" onclick="showAlert()">View Skills</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+    <script>
+        function showAlert() {
+            if (confirm("Proceed to next page?")) {
+                window.location.href = "page2.html";
+            } else {
+                // do nothing or handle the cancel action
+            }
+        }
+    </script>
+</body>
+</html>
